@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/myTEI-taxonomy-.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title type="main">Libro de Alexandre</title>
+                <title type="sub">Armas de Darío</title>
+                <author ref="#ANM">Anónimo</author>
+                <editor xml:id="GAC">Gabriel A. Calarco</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>A definir</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="book"> 
+                        <title>Libro de Alexandre</title>
+                        <editor>Juan Casas Rigall</editor>
+                        <publisher>Real Academia Española</publisher>
+                        <date>2014</date>
+                        <pubPlace>Madrid</pubPlace>
+                    </bibl>
+                </listBibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional (Madrid)</repository>
+                        <idno>V-5-n.10</idno>
+                        <altIdentifier>
+                            <idno>O</idno>
+                        </altIdentifier>
+                    </msIdentifier>        
+                </msDesc> 
+                
+                <msDesc>      
+                    <msIdentifier>
+                        <repository>Bibliotheque Nationale de France (París)</repository>
+                        <idno>Esp. 488</idno>
+                        <altIdentifier>
+                            <idno>P</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>    
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>    
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <listChange>
+                <change/>
+            </listChange>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <note>Se trata de un fragmento del Libro de Alexandre</note>  
+            
+            
+            <lg type="poema" 
+                subtype="épica-culta" 
+                met="14,14,14,14" 
+                rhyme="AAAA"   
+                unisonancia="singular" 
+                isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" 
+                asonancia="consonante"> 
+                
+                
+                 <lg n="989" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#armas"> 
+                     <l xml:id="L1">Conviene que <term cRef="312">fablemos</term>, <caesura/>entre las otras cosas,</l>		
+                     <l xml:id="L2">de las <term cRef="62">armas</term> de <persName ref="#DAR">Dario</persName>, <caesura/>que fueron muy <term cRef="172">preçiosas</term>:</l>
+                     <l xml:id="L3">de <term cRef="26">obra</term> eran <term cRef="178">firmes</term>, <caesura/>de <term cRef="202">pareçer</term> <term cRef="164">fermosas</term>,</l>		
+                     <l xml:id="L4">pora traer <term cRef="313">livianas</term>, <caesura/>¡mas non bien <term cRef="314">venturosas</term>!</l>
+                 </lg>
+                 <lg n="990" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#armas #escudo #reyesdeoriente #torredebabel"> 
+                     <l xml:id="L5">Avié en el <term cRef="98">escudo</term> <caesura/>mucha <term cRef="177">bella</term> <term cRef="144">estoria</term>,</l>		
+                     <l xml:id="L6">las <term cRef="148">gestas</term> que fizieron <caesura/>los <term cRef="219">reys de <placeName ref="#BAB">Babilonia</placeName></term>.</l>	
+                     <l xml:id="L7">Yazié de los <term cRef="315">Gigantes</term> <caesura/>ý toda la memoria,</l>		
+                     <l xml:id="L8">quando de los <term cRef="317">lenguajes</term> <caesura/>prisieron la discordia.</l>
+                 </lg>  
+                <lg n="991" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#armas #escudo #reyesdeoriente"> 
+                     <l xml:id="L9">Seyé del otro cabo <caesura/>el rëy de <placeName ref="#CAL">Caldea</placeName>,</l>
+                     <l xml:id="L10"><persName ref="#NAB">Nabucodonosor</persName>, <caesura/>que conquiso <placeName ref="#JUD">Judea</placeName>;</l>		
+                     <l xml:id="L11">cuémo priso <placeName ref="#JER">Sïon</placeName>, <caesura/><placeName ref="#TRI">Trípol</placeName> e <placeName ref="#TAB">Tabarea</placeName></l>	
+                     <l xml:id="L12">e quántas ontas fizo <caesura/>sobre la gent’ebrea.</l>
+                </lg>
+                <lg n="992" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#armas #escudo #reyesdeoriente"> 
+                     <l xml:id="L13">Cuémo destruyó el templo <caesura/>en la <placeName ref="#JER">Santa Çibdat</placeName>,</l>
+                     <l xml:id="L14">cuémo fueron los tribos <caesura/>en su cabtividat;</l>
+                     <l xml:id="L15">cuémo sobre el rëy	<caesura/>fizo tal crüeldat,</l>	
+                     <l xml:id="L16">que li sacó los ojos, <caesura/>ca assí fue verdat.</l>
+                </lg>
+                <lg n="993" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#armas #escudo #reyesdeoriente"> 
+                     <l xml:id="L17">Por amor que las <term cRef="62">armas</term>	<caesura/>non fuessen <term cRef="179">mazelladas</term>,</l>
+                     <l xml:id="L18">unas <term cRef="144">estorias</term> <term cRef="181">bueltas</term> <caesura/>—non fuessen <term cRef="318">entecadas</term>—</l>	
+                     <l xml:id="L19">non quiso el <term cRef="3">maestro</term> <caesura/>que fuessen ý <term cRef="27">pintadas</term>,</l>	
+                     <l xml:id="L20">ca serién las <term cRef="180">derechas</term> <caesura/>por essas <term cRef="182">desfeadas</term>.</l>
+                </lg>
+                <lg n="994" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#armas #escudo #reyesdeoriente"> 
+                     <l xml:id="L21">Non lo vío por <term cRef="19">seso</term> <caesura/>que fuesse ý <term cRef="37">metido</term></l>
+                     <l xml:id="L22"><persName ref="#NAB">Nabucodonosor</persName> <caesura/>cuémo fue enloquido,</l>
+                     <l xml:id="L23">ca andido siet’años <caesura/>de memoria sallido,</l>
+                     <l xml:id="L24">pero tornó en cabo <caesura/>en todo su sentido.</l>
+                </lg>
+                <lg n="995" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#armas #escudo #reyesdeoriente"> 
+                     <l xml:id="L25">Non quiso ý <term cRef="38">poner</term> <caesura/>al fijo perjurado</l>
+                     <l xml:id="L26">que fue sobre su padre <caesura/>crudo e denodado;</l>
+                     <l xml:id="L27">lo que peor li sovo, <caesura/>óvolo desmembrado,</l>		
+                     <l xml:id="L28">ca querié regnar solo <caesura/>el que aya mal fado.</l>
+                </lg>
+                <lg n="996" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#armas #escudo #reyesdeoriente"> 
+                     <l xml:id="L29">Mas en cabo estava <caesura/><term cRef="18">sotilmente</term> <term cRef="26">obrado</term></l>
+                     <l xml:id="L30">el buen regno de <placeName ref="#PER">Persia</placeName> <caesura/>cuémo fue empeçado:</l>
+                     <l xml:id="L31">la mano que feziera <caesura/>el <term cRef="168">obscuro</term> <term cRef="75">ditado</term>,</l>	
+                     <l xml:id="L32">lo que don <persName ref="#BAL">Baltasar</persName> <caesura/>ovo determinado.</l>
+                </lg>
+                <lg n="997" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#armas #escudo #reyesdeoriente"> 
+                     <l xml:id="L33">La <term cRef="144">estoria</term> de <persName ref="#CIR">Çiro</persName> <caesura/>fue derredor echada,</l>
+                     <l xml:id="L34">qué grant conquista fizo <caesura/>todo por su espada;</l>
+                     <l xml:id="L35">cuémo fue la compaña <caesura/>de Israel quitada;</l>
+                     <l xml:id="L36"><persName ref="#CRE">Cresus</persName> en la su guerra <caesura/>cómo non ganó nada.</l>
+                </lg>
+                <lg n="998" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#armas #escudo #reyesdeoriente"> 
+                     <l xml:id="L37">Cuémo fue a escuso <caesura/>en los montes crïado</l>
+                     <l xml:id="L38">e de quál guisa fue <caesura/>aducho a poblado,</l>
+                     <l xml:id="L39">pero, quando en cabo <caesura/>todo fue delivrado,</l>
+                     <l xml:id="L40">óvolo en batalla <caesura/>una dueña matado.</l>
+                </lg>
+                <lg n="999" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#armas #escudo #reyesdeoriente"> 
+                     <l xml:id="L41">Nunca en este mundo <caesura/>devrié omne fïar,</l>
+                     <l xml:id="L42">que sabe a sus cosas <caesura/>tan mala çaga dar:</l>
+                     <l xml:id="L43">¡sabe a sus amigos <caesura/>poner en grant logar,</l>
+                     <l xml:id="L44">por que peor los pueda <caesura/>en cabo quebrantar!</l>
+                </lg>
+                <lg n="1000" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#armas #escudo #reyesdeoriente"> 
+                     <l xml:id="L45"><persName ref="#CIR">Çiro</persName> fue poderoso <caesura/>en tierra e en mar;</l>
+                     <l xml:id="L46">dioli Dios grant ventura, <caesura/>diol’ mucho a ganar,</l>
+                     <l xml:id="L47">pero tod’ su ganançia <caesura/>no’l pudo emparar:</l>	
+                     <l xml:id="L48">¡óvolo una fembra <caesura/>en cabo a matar!</l>
+                </lg>
+                <lg n="1001" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#armas #escudo #reyesdeoriente"> 
+                     <l xml:id="L49">Por ninguna riqueza <caesura/>que pudiesse seer,</l>
+                     <l xml:id="L50">nunca devié nul omne <caesura/>lo de Dios posponer,</l>
+                     <l xml:id="L51">ca qui rafez lo da <caesura/>rafez lo pued’ toller:</l>
+                     <l xml:id="L52">¡pierde a Dios en cabo <caesura/>e todo el aver!</l>
+                </lg>
+                
+           </lg>
+        </body>
+    </text>
+</TEI>
