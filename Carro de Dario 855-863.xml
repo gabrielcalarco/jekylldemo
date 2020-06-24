@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/myTEI-taxonomy-.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title type="main">Libro de Alexandre</title>
+                <title type="sub">Carro de Darío</title>
+                <author ref="#ANM">Anónimo</author>
+                <editor xml:id="GAC">Gabriel A. Calarco</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>A definir</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="book"> 
+                        <title>Libro de Alexandre</title>
+                        <editor>Juan Casas Rigall</editor>
+                        <publisher>Real Academia Española</publisher>
+                        <date>2014</date>
+                        <pubPlace>Madrid</pubPlace>
+                    </bibl>
+                </listBibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional (Madrid)</repository>
+                        <idno>V-5-n.10</idno>
+                        <altIdentifier>
+                            <idno>O</idno>
+                        </altIdentifier>
+                    </msIdentifier>        
+                </msDesc> 
+                
+                <msDesc>      
+                    <msIdentifier>
+                        <repository>Bibliotheque Nationale de France (París)</repository>
+                        <idno>Esp. 488</idno>
+                        <altIdentifier>
+                            <idno>P</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>    
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>    
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <listChange>
+                <change/>
+            </listChange>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <note>Se trata de un fragmento del Libro de Alexandre</note>  
+            
+            
+            <lg type="poema" 
+                subtype="épica-culta" 
+                met="14,14,14,14" 
+                rhyme="AAAA"   
+                unisonancia="singular" 
+                isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" 
+                asonancia="consonante"> 
+                
+                 
+                <lg n="855" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#carro">
+                    <l xml:id="L1">En medio iva <persName ref="#DAR">Dario</persName>, <caesura/>un cuerpo tan preçioso</l>	
+                    <l xml:id="L2">—¡semejava profeta, <caesura/>tant’era de sabroso!—.</l>	
+                    <l xml:id="L3">El <term cRef="64">carro</term> en que iva <caesura/>tant’era de <term cRef="164">fermoso</term></l>		
+                    <l xml:id="L4">que qui’l podié <term cRef="198">veer</term> <caesura/>teniés’ por <term cRef="314">venturoso</term>.</l>
+                </lg> 
+                <lg n="856" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#carro">
+                    <l xml:id="L5">Los <term cRef="101">rayos</term> eran d’<term cRef="150">oro</term>, <caesura/>fechos a grant <term cRef="320">lavor</term>;</l>		
+                    <l xml:id="L6">las <term cRef="100">ruedas</term> esso mismo <caesura/>davan grant <term cRef="184">resplandor</term>;</l>
+                    <l xml:id="L7">el <term cRef="99">ex’</term>, de fin’<term cRef="151">argent’</term>, <caesura/>que cantasse mejor;</l>		
+                    <l xml:id="L8">el <term cRef="103">ventril</term> de <term cRef="153">çiprés</term>, <caesura/>por dar buena olor.</l>
+                </lg>
+                <lg n="857" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#carro">
+                    <l xml:id="L9">El <term cRef="104">cabeçón</term> del <term cRef="64">carro</term> <caesura/>no’l tengades por <term cRef="321">vil</term>:</l>		
+                    <l xml:id="L10">era todo <term cRef="31">ondado</term> <caesura/>de muy buen <term cRef="161">amarfil</term>;</l>		
+                    <l xml:id="L11">todo era <term cRef="322">listado</term> <caesura/>de <term cRef="26">obra</term> de <term cRef="85">grafil</term>;</l>		
+                    <l xml:id="L12">¡de <term cRef="157">piedras de grant preçio</term> <caesura/>avié ý más de mill!</l>
+                </lg> 
+                <lg n="858" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#carro">
+                    <l xml:id="L13">Las puntas de los <term cRef="101">rayos</term> <caesura/>eran bien <term cRef="323">cabeadas</term>,</l>		
+                    <l xml:id="L14">de <term cRef="102">bastones</term> bien fechos <caesura/>de <term cRef="157">piedras preçïadas</term>;</l>	
+                    <l xml:id="L15">eran tan <term cRef="18">sotilment’</term> <caesura/>todas <term cRef="35">engastonadas</term>:</l>		
+                    <l xml:id="L16">¡<term cRef="368">semejavan que eran <caesura/>en uno ajuntadas</term>!</l>
+                </lg> 
+                <lg n="859" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#carro #animales">
+                    <l xml:id="L17">Digámosvos del <term cRef="105">yugo</term>, <caesura/>siquier’ de la <term cRef="106">lazada</term></l>		
+                    <l xml:id="L18">—<term cRef="26">obra</term> era greçisca <caesura/>nuevamente fallada—:</l>	
+                    <l xml:id="L19">¡toda una <term cRef="324">sirpiente</term> <caesura/>teniela embraçada</l>		
+                    <l xml:id="L20">por cadena de <term cRef="150">oro</term> <caesura/>que era muy delgada!</l>
+                </lg> 
+                <lg n="860" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#carro">
+                    <l xml:id="L21">El <term cRef="107">escaño</term> de <persName ref="#DAR">Dario</persName> <caesura/>era de grant <term cRef="325">barata</term>:</l>		
+                    <l xml:id="L22">los <term cRef="108">piedes</term> de fin’<term cRef="150">oro</term> <caesura/>e los <term cRef="109">braços</term> de <term cRef="151">plata</term>.</l>		
+                    <l xml:id="L23">¡Más <term cRef="173">valién</term> los <term cRef="110">aniellos</term> <caesura/>en que omne los ata</l>		
+                    <l xml:id="L24">que non farién las rendas <caesura/>de toda <placeName ref="#DAM">Damïata</placeName>!</l>
+                </lg> 
+                <lg n="861" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#carro #animales">
+                    <l xml:id="L25">Tenié puestos los piedes <caesura/>sobre quatro <term cRef="280">leones</term></l>		
+                    <l xml:id="L26">que <term cRef="203">semejavan</term> bivos, <caesura/>tanto eran lidones;</l>		
+                    <l xml:id="L27">tenién en las cabeças <caesura/>otros tantos <term cRef="283">grifones</term></l>
+                    <l xml:id="L28">e tenién so las manos <caesura/>todos sendos <term cRef="284">bestiones</term>.</l>
+                </lg> 
+                <lg n="862" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#carro #animales">
+                    <l xml:id="L29">Venié sobre el rëy, <caesura/>por temprar la calor,</l>			
+                    <l xml:id="L30">un <term cRef="285">águila</term> bien fecha <caesura/>de <term cRef="172">preçiosa</term> <term cRef="320">lavor</term>,</l>		
+                    <l xml:id="L31">las alas espandidas <caesura/>por fer sombra mayor;</l>	
+                    <l xml:id="L32">siempre tenié al rëy <caesura/>de temprada sabor.</l>
+                </lg>    
+                 <lg n="863" type="terástico" met="14,14,14,14" rhyme="AAAA" ana="#carro #diosespaganos">
+                     <l xml:id="L33">Eran en la <term cRef="64">carreta</term> <caesura/>todos los <term cRef="207">dios</term> <term cRef="27">pintados</term></l>		
+                     <l xml:id="L34">e cuémo son tres çielos <caesura/>e de qué son poblados:</l>
+                     <l xml:id="L35">el somero, muy <term cRef="328">claro</term>, <caesura/>lleno de <term cRef="326">blanqueados</term>;</l>		
+                     <l xml:id="L36">los otros más de yuso, <caesura/>de <term cRef="327">color</term> más <term cRef="329">delgados</term>.</l>
+                </lg>    
+                 
+           </lg>
+        </body>
+    </text>
+</TEI>
